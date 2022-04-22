@@ -1,4 +1,4 @@
-DateofSale(dd/mm/yyyy),Address,PostalCode,County,Price(€),NotFullMarketPrice,VATExclusive,DescriptionofProperty,PropertySizeDescription
+Date of Sale (dd/mm/yyyy),Address,Postal Code,County,Price (€),Not Full Market Price,VAT Exclusive,Description of Property,Property Size Description
 2022-01-15,"24 FOREST WALK, SWORDS, DUBLIN",,Dublin,154000.0,No,No,Second-Hand Dwelling house /Apartment,
 2022-01-15,"5 CRAGAUN, FATHER RUSSELL ROAD, DOORADOYLE",,Limerick,370000.0,No,No,Second-Hand Dwelling house /Apartment,
 2022-01-16,"19  The Lawn, Mullen Park, Maynooth",,Kildare,409691.63,No,Yes,New Dwelling house /Apartment,
