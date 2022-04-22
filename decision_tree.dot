@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="County_Dublin <= 0.5\ngini = 0.996\nsamples = 6666\nvalue = [61, 18, 1 ... 2, 2, 67]"] ;
+1 [label="Description_of_Property_Second-Hand Dwelling house /Apartment <= 0.5\ngini = 0.995\nsamples = 4527\nvalue = [53, 18, 1 ... 0, 0, 11]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="County_Kildare <= 0.5\ngini = 0.997\nsamples = 721\nvalue = [9, 1, 0 ... 0, 0, 3]"] ;
+1 -> 2 ;
+3 [label="gini = 0.996\nsamples = 616\nvalue = [8, 1, 0 ... 0, 0, 3]"] ;
+2 -> 3 ;
+4 [label="gini = 0.986\nsamples = 105\nvalue = [1, 0, 0 ... 0, 0, 0]"] ;
+2 -> 4 ;
+5 [label="County_Kildare <= 0.5\ngini = 0.994\nsamples = 3806\nvalue = [44, 17, 1 ... 0, 0, 8]"] ;
+1 -> 5 ;
+6 [label="gini = 0.994\nsamples = 3575\nvalue = [44, 17, 1 ... 0, 0, 7]"] ;
+5 -> 6 ;
+7 [label="gini = 0.991\nsamples = 231\nvalue = [0, 0, 0 ... 0, 0, 1]"] ;
+5 -> 7 ;
+8 [label="Postal_Code_dublin 11 <= 0.5\ngini = 0.996\nsamples = 2139\nvalue = [8, 0, 0 ... 2, 2, 56]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Postal_Code_dublin 6 <= 0.5\ngini = 0.996\nsamples = 2069\nvalue = [8, 0, 0 ... 2, 2, 56]"] ;
+8 -> 9 ;
+10 [label="gini = 0.996\nsamples = 2003\nvalue = [8, 0, 0 ... 1, 1, 47]"] ;
+9 -> 10 ;
+11 [label="gini = 0.966\nsamples = 66\nvalue = [0, 0, 0 ... 1, 1, 9]"] ;
+9 -> 11 ;
+12 [label="Description_of_Property_Second-Hand Dwelling house /Apartment <= 0.5\ngini = 0.972\nsamples = 70\nvalue = [0, 0, 0 ... 0, 0, 0]"] ;
+8 -> 12 ;
+13 [label="gini = 0.8\nsamples = 5\nvalue = [0, 0, 0 ... 0, 0, 0]"] ;
+12 -> 13 ;
+14 [label="gini = 0.969\nsamples = 65\nvalue = [0, 0, 0 ... 0, 0, 0]"] ;
+12 -> 14 ;
+}
